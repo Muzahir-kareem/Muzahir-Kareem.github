@@ -1,0 +1,235 @@
+/*=======================================
+  CSS Reset
+========================================*/
+
+
+
+/*=======================================
+  Global Styles
+========================================*/
+
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  background-color: #D3D3D3;
+}
+
+
+/*=======================================
+  Container
+========================================*/
+
+.container {
+  width: 65rem;
+  margin: 0 auto;
+}
+
+.clear {
+  clear:both;
+  line-height:0;
+}
+
+/*=======================================
+  Navigation
+========================================*/
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 4.2rem;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  opacity: 0.8;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+.btn {
+  background-color:#000033;
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  align-items:left;
+  float: left;
+}
+
+.active {
+  color: aliceblue;
+  opacity: 1;
+  padding-bottom: 11px;
+  border-bottom: 3px solid white;
+}
+
+
+/*=======================================
+  Header
+========================================*/
+
+.header {
+  background-color: #000033;
+  display: flex;
+  align-items: center;
+  height: 15rem;
+  padding: 0 5rem 0 5rem;
+}
+
+.header-text {
+  color: white;
+  font-weight: 500;
+}
+
+.header-text h1 {
+  font-size: 2.2rem;
+}
+
+.header-text h3 {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+
+.header img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: auto;
+}
+
+
+/*=======================================
+  Objective
+========================================*/
+
+.objective {
+  background-color: #000000;
+  display: flex;
+  align-items:center;
+  padding: 0 10px 0 10px;
+} 
+
+
+/*=======================================
+  Main
+========================================*/
+
+.main {
+  background-color: white;
+}
+
+.left img {
+  float: left;
+  position: relative;
+  width: 450px;
+  height: 1010px;
+  padding: 7px;
+  background-color: #000022;
+  box-shadow: inset 7px 0 20px -5px rgba(0, 0, 0, 0.5);
+  text-align: end (Mazhar);
+
+}
+
+.right {
+  float: right;
+  width: 31rem;
+  position: relative;
+  padding: 2.5rem;
+  background-color: #000022;
+  box-shadow: inset 7px 0 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.section-title {
+  color: white;
+  font-size: 50px;
+  padding-bottom: 1rem;
+}
+
+.para{
+  color: teal;
+}
+
+.work-timeline {
+  padding-bottom: 2rem;
+}
+
+.work-timeline-info {
+  color: white;
+  padding-left: 3rem;
+  display: inline-block;
+  position: relative;
+  width: 22rem;
+}
+
+.work-timeline-info h1 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.work-timeline-info p {
+  font-weight: 300;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  font-size: 0.9rem;
+  padding-top: 0.5rem;
+}
+
+.Service{
+  padding: 5px;
+  display: inline-block;
+
+}
+
+
+/*=======================================
+  Web links
+========================================*/
+.web-links {
+  background-color: black
+  
+  ;
+  color: white;
+  text-align: center;
+}
+
+.web-icon {
+  padding: 2rem;
+  display: inline-block;
+}
+.small-text a{
+  color: aliceblue;
+  font-size: 20px
+}
+
+/*=======================================
+  Contact Info
+========================================*/
+.contact-info {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.contact-info p {
+  text-align: center;
+}
+.contact-info a {
+  color: white;
+}
+
+.contact-info-text {
+  text-align: center;
+}
